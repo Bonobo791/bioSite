@@ -88,3 +88,22 @@ html {
     font-weight: 300;
     font-size: 0.875em;
   } 
+
+  /* Footer */
+
+  footer { 
+    display: block;
+    text-align: center;
+  }
+
+  .column-footer {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after image containers */
+  .row-footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
