@@ -20,6 +20,9 @@ html {
   font-weight: 300;
   font-size: 1.25em;
   margin: 0 0 1em;
+  width: 80%;
+  text-align: center;
+  display: inline-block;
 }
 
 /* Navigation */
